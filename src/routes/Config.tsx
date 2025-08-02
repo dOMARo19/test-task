@@ -3,7 +3,7 @@ import Home from '../pages/Home'
 import Blog from '../pages/Blog'
 import FAQ from '../pages/FAQ'
 import AboutUs from '../pages/AboutUs'
-import ContactForm from '../components/ContactForm'
+import Contacts from '../pages/Contacts'
 import ThankYou from '../pages/ThankYou'
 
 
@@ -41,7 +41,7 @@ export const routes: RouteConfig[] = [
     },
     {
         path: '/contact',
-        element: <ContactForm />,
+        element: <Contacts />,
         label: 'Contact',
         showInMenu: true,
     },

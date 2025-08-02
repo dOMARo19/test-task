@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                   <Link to="/blog" className="text-gray-700 hover:text-blue-600 transition">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/contacts" className="text-gray-700 hover:text-blue-600 transition">Contacts</Link>
+                  <Link to="/contact" className="text-gray-700 hover:text-blue-600 transition">Contact</Link>
                 </li>
                 <li>
                   <Link to="/faq" className="text-gray-700 hover:text-blue-600 transition">FAQ</Link>
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                   <Link to="/blog" className="block text-gray-700 hover:text-blue-600 transition">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/contacts" className="block text-gray-700 hover:text-blue-600 transition">Contacts</Link>
+                  <Link to="/contact" className="block text-gray-700 hover:text-blue-600 transition">Contact</Link>
                 </li>
                 <li>
                   <Link to="/faq" className="block text-gray-700 hover:text-blue-600 transition">FAQ</Link>

@@ -7,10 +7,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    children: routes.map((route) => ({
-      path: route.path,
-      element: route.element,
-    })),
+    children: routes,
   }
 ])
 
