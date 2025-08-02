@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: min(100% - 40px, 992px);
+    margin-inline: auto;
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu-item {
+  margin: 0 15px;
+}
+
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #ffd700;
+}
+
+.menu-link.active {
+  color: #ffd700;
+}
+
+.menu-link.active:hover {
+  color: #ffd700;
+}
