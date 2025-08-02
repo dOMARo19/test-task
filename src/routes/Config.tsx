@@ -34,7 +34,7 @@ export const routes: RouteConfig[] = [
         showInMenu: true,
     },
     {
-        path: '/about',
+        path: '/about-us',
         element: <AboutUs />,
         label: 'About Us',
         showInMenu: true,
